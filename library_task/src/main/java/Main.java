@@ -3,7 +3,7 @@ import models.Library;
 import models.LibraryUsers;
 import services.impl.LibraryServicesImpl;
 
-public class Librarian {
+public class Main {
     public static void main(String[] args) {
         LibraryUsers l1 = new LibraryUsers("Teacher Delia Uzo", 01, true, false, false);
         LibraryUsers l2 = new LibraryUsers("Snr. Onyi Onky", 76, false, true, false);
